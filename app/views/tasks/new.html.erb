@@ -1,0 +1,9 @@
+<h2>New</h2>
+
+Newページです！！
+
+<%= form_for(@task) do |f| %>
+  <%= f.label :title, "TODO" %>
+  <%= f.text_field :title %>
+  <%= f.submit "送信" %>
+<% end %>
